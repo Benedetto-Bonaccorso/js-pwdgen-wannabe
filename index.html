@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="password">esempio</h1>
+
+    <script>
+
+        const nome = prompt("Qual'è il tuo nome?")
+        const cognome = prompt("Qual'è il tuo cognome?")
+        const colorePreferito = prompt("Qual'è il tuo colore preferito?")
+
+        let passwordOutput = nome + cognome + colorePreferito + "22";
+
+        document.getElementById("password").innerHTML = passwordOutput;
+
+    </script>
+</body>
+</html>
